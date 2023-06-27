@@ -88,24 +88,48 @@ In certain limits, the Klein-Gordon equation and the Dirac equation can reduce t
 
 ## Algorithmic Correspondence
 
-Rules of thumb: Specificity, Irreplaceability and Validity
+### Rules of thumb: 
+1. Specificity = Don’t restrict development to analogies and metaphors only. Instead, integrate actual functionalities and mechanisms (control flow of the code) from nature on top of mere analogies and metaphors.
+2. Irreplacability: if the control flow of the code could be described conceptually otherwise, then the algorithmic correspondence is merely analogical and/or metaphorical, and thus redundant.
+3. Validity: Operators and Equation (Conceptual and Numerical validity)
 
-Methods: Explicit Abstraction (Transfer learning), Reverse-Engineering, First-Principles, Horizontal Engineering, SHODIT
 
-Type of Optimization Algorithm: Population, Discrete and Local
+### Type of Optimization Algorithm: 
 
-Equation/Parameters of the phenomenon (Algorithmic/Customized or General)
+1. Population Optimization algorithm: the algorithm evaluates a population of solutions per iteration.
+2. Local Optimization algorithm: the algorithm moves locally from one solution to another in the hopes of finding global optima (or an approximation thereof)
+3. Discrete Optimization algorithm: the algorithm takes in discrete solution representations only (Permutation, Boolean...etc) and fitness functions that accept such inputs
 
-Algorithmic Operators: Causal or Effects (dose effect)
 
-Solution Representation and Fitness function: Discrete or Continuous
+### Equation/Parameters of the phenomenon (Algorithmic/Customized or General)
 
-Neighborhood Topology, Step Size, Size and Threshold/Radius
+### Algorithmic Operators: Causal or Effects (dose effect)
 
-Population Algorithm steps: Self-Adaptation, Cooperation and Competition
+### Solution Representation and Fitness function: Discrete or Continuous
+1. Solution representation
+2. Fitness function
 
-Exploration-Exploitation paradigm (feedback loops if possible)
+### Neighborhood Topology, Step Size, Size and Threshold/Radius
+1. Neighborhood Topology
+2. Step Size
+3. Size
+4. Threshold
 
-Flowchart: Initialization → Iterative Loop (order and existence) → Termination Criteria
+### Population Algorithm steps: 
 
-Local Algorithm components (Post-Processing): Depth, Mobility and Coverage
+1. Self-Adaptation
+2. Cooperation
+3. Competition
+
+### Exploration-Exploitation paradigm (feedback loops if possible)
+
+### Flowchart: 
+
+1. Initialization
+2. Iterative Loop (order and existence)
+3. Termination Criteria
+
+### Local Algorithm components (Post-Processing): 
+1. Depth
+2. Mobility
+3. Coverage
