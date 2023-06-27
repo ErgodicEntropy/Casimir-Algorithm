@@ -47,3 +47,65 @@ The Casimir effect has also found practical applications in nanotechnology and p
 
 1. Lamb Shift: The Lamb shift is a small energy shift observed in the spectral lines of certain atomic transitions. It was discovered by Willis Lamb and is caused by the interaction between an electron and the quantum fluctuations of the electromagnetic field.
 2. Hawking Radiation: Hawking radiation is a theoretical prediction by physicist Stephen Hawking that black holes can emit radiation due to quantum effects near the event horizon. It arises from the creation and subsequent escape of particle-antiparticle pairs at the black hole's boundary, leading to a gradual decrease in its mass and energy.
+
+## Quantum Mechanical equations: 
+
+1. Schrödinger Equation:
+The Schrödinger equation is a fundamental equation in quantum mechanics that describes the time evolution of a quantum system. It was formulated by Austrian physicist Erwin Schrödinger in 1925. The equation is written as:
+iħ ∂ψ/∂t = -ħ²/2m ∇²ψ + Vψ
+
+In this equation, ħ (h-bar) represents the reduced Planck's constant, ψ is the wave function that describes the quantum state of the system, t is time, m is the mass of the particle, ∇² is the Laplacian operator, and V is the potential energy function. The left side of the equation describes the rate of change of the wave function with respect to time, while the right side represents the total energy of the system (kinetic energy + potential energy) acting on the wave function.
+
+The Schrödinger equation is a non-relativistic equation and is applicable to particles with both mass and wave-like properties, such as electrons in atoms. It provides a probabilistic description of the behavior of quantum systems, where the square of the wave function, |ψ|², gives the probability density of finding the particle at a particular position.
+
+2. Klein-Gordon Equation:
+The Klein-Gordon equation is a relativistic wave equation that describes particles with spin-0, such as mesons. It was formulated by physicists Oskar Klein and Walter Gordon in the late 1920s. The equation is written as:
+∂²ψ/∂t² = (∇² - (m c / ħ)²) ψ
+
+Here, ψ represents the wave function, t is time, ∇² is the Laplacian operator, m is the mass of the particle, c is the speed of light, and ħ is the reduced Planck's constant.
+
+The Klein-Gordon equation has second-order time derivatives, unlike the Schrödinger equation, which has first-order time derivatives. It is a relativistic equation that accounts for the effects of special relativity, allowing for the description of particles at high energies. However, the Klein-Gordon equation has a problem called the "negative-energy problem" where it allows solutions with negative energies. This led to the development of the Dirac equation.
+
+3. Dirac Equation:
+The Dirac equation is a relativistic wave equation that describes particles with spin-1/2, such as electrons. It was formulated by British physicist Paul Dirac in 1928. The equation is written as:
+(γ⁰ (i ∂/∂t) - γ¹ (i ∂/∂x) - γ² (i ∂/∂y) - γ³ (i ∂/∂z) - m c) ψ = 0
+
+In this equation, ψ represents the four-component spinor wave function, t is time, (i ∂/∂t) and (i ∂/∂x), (i ∂/∂y), (i ∂/∂z) represent partial derivatives with respect to time and space coordinates, m is the mass of the particle, c is the speed of light, and γ⁰, γ¹, γ², γ³ are the four Dirac matrices.
+
+The Dirac equation is a relativistic generalization of the Schrödinger equation that accounts for both special relativity and quantum mechanics. It describes particles with both wave-like and particle-like properties, such as electrons. The Dirac equation successfully predicts the existence of antiparticles, as well as spin and magnetic properties of particles. It provides a mathematical framework for describing quantum fields and the interactions of elementary particles.
+
+#### Relationships between the Equations:
+The Schrödinger equation, Klein-Gordon equation, and Dirac equation are interconnected in the sense that they describe different types of particles and their behavior under different physical conditions.
+
+The Schrödinger equation is a non-relativistic equation that describes particles with both wave-like and particle-like properties. It provides a description of the behavior of particles in atoms and other quantum systems.
+
+The Klein-Gordon equation is a relativistic wave equation that accounts for the effects of special relativity. It describes spin-0 particles and is applicable at high energies. However, it suffers from the negative-energy problem.
+
+The Dirac equation is a relativistic wave equation that describes particles with spin-1/2 and accounts for both special relativity and quantum mechanics. It successfully predicts the existence of antiparticles and provides a framework for describing quantum fields.
+
+In certain limits, the Klein-Gordon equation and the Dirac equation can reduce to the Schrödinger equation. For example, when considering non-relativistic particles or low energies, the relativistic equations reduce to the Schrödinger equation. Therefore, the Schrödinger equation can be seen as a limiting case of the more general Klein-Gordon and Dirac equations.
+
+
+## Algorithmic Correspondence
+
+Rules of thumb: Specificity, Irreplaceability and Validity
+
+Methods: Explicit Abstraction (Transfer learning), Reverse-Engineering, First-Principles, Horizontal Engineering, SHODIT
+
+Type of Optimization Algorithm: Population, Discrete and Local
+
+Equation/Parameters of the phenomenon (Algorithmic/Customized or General)
+
+Algorithmic Operators: Causal or Effects (dose effect)
+
+Solution Representation and Fitness function: Discrete or Continuous
+
+Neighborhood Topology, Step Size, Size and Threshold/Radius
+
+Population Algorithm steps: Self-Adaptation, Cooperation and Competition
+
+Exploration-Exploitation paradigm (feedback loops if possible)
+
+Flowchart: Initialization → Iterative Loop (order and existence) → Termination Criteria
+
+Local Algorithm components (Post-Processing): Depth, Mobility and Coverage
