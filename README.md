@@ -101,23 +101,39 @@ In certain limits, the Klein-Gordon equation and the Dirac equation can reduce t
 3. Discrete Optimization algorithm: the algorithm takes in discrete solution representations only (Permutation, Boolean...etc) and fitness functions that accept such inputs
 
 
-### Equation/Parameters of the phenomenon (Algorithmic/Customized or General)
+### Casimir effect algorithmic inequality:
+
+The uncertainty principle for energy-time is expressed by the following inequality:
+
+ΔE * Δt ≥ ħ/2
+
+In this inequality, ΔE represents the uncertainty or indeterminacy in energy measurements, Δt represents the uncertainty or indeterminacy in time measurements, and ħ (h-bar) is the reduced Planck's constant, which has a value of approximately 1.054 × 10^(-34) joule-seconds.
+
+This inequality states that the product of the uncertainties in energy (ΔE) and time (Δt) must be greater than or equal to half of the reduced Planck's constant (ħ/2). It implies that the more precisely one tries to measure the energy of a quantum system, the larger the uncertainty or spread in the corresponding measurement of time, and vice versa.
+
+The uncertainty principle for energy-time arises from the fundamental nature of quantum mechanics, where particles and systems exhibit wave-like properties and their behaviors are described by wave functions. The uncertainty principle applies to any physical quantity that does not commute or can't be simultaneously measured with complete precision. In the case of energy and time, they are non-commuting observables, meaning their precise values cannot be determined simultaneously.
+
+The uncertainty principle for energy-time has important implications in various aspects of quantum mechanics. It suggests that there are inherent limitations in our ability to precisely measure and predict the energy and timing of quantum events. It also plays a role in phenomena such as quantum fluctuations, where virtual particle-antiparticle pairs briefly emerge from the vacuum due to the energy-time uncertainty relationship.
+
+In the context of the Casimir effect, the uncertainty principle for energy-time contributes to the fluctuations of virtual particles and their impact on the modification of the zero-point energy. The limited time available for the existence of these virtual particles, dictated by the energy-time uncertainty relationship, contributes to the overall energy fluctuation and subsequently influences the Casimir force between the plates.
+
+In summary, the uncertainty principle for energy-time is a fundamental principle in quantum mechanics that sets a lower limit on the product of uncertainties in energy and time measurements. It reflects the inherent indeterminacy in the values of energy and time for quantum systems and has implications for phenomena like quantum fluctuations and the Casimir effect.
 
 ### Algorithmic Operators: Causal or Effects (dose effect)
 
 ### Solution Representation and Fitness function: Discrete or Continuous
-1. Solution representation
-2. Fitness function
+1. Solution representation in the form of lists (discrete representation: Permutation or Boolean solution representation)
+2. Fitness function (any fitness function that takes discrete lists as inputs)
 
 ### Neighborhood Topology, Step Size, Size and Threshold/Radius
-1. Neighborhood Topology
-2. Step Size
-3. Size
-4. Threshold
+1. Neighborhood Topology  (Distance/Norm metric or measure): Permutation XOR (it satisfies the axioms of a norm in a normed vector space)
+2. Step Size (Mobility): It depends on the convection coefficient of the Heat Transfer equation in the Divergence plate boundary (Exploration phase)
+3. Neighborhood Size: arbitrary (number of solutions in the neighbordhood, which is determined by the neighborhood threshold)
+4. Neighborhood threshold (radius): arbitrary (maximum number of times of solution variation while staying in the neighborhood)
 
 ### Population Algorithm steps: 
 
-1. Self-Adaptation
+1. Self-Adaptation: Casimir effect via Quantum Fluctuations (Uncertainty Principle) [Exploration phase ]
 2. Cooperation
 3. Competition
 
@@ -125,11 +141,20 @@ In certain limits, the Klein-Gordon equation and the Dirac equation can reduce t
 
 ### Flowchart: 
 
-1. Initialization
-2. Iterative Loop (order and existence)
-3. Termination Criteria
+#### Initialization:
+Initialization of virtual particles through quantum fluctuations between two plates (electrical conductors or dielectrics)
+#### Iteration Loop: (Order doesn't matter but we will go with standards)
+1. Fitness evaluation
+2. Fit Virtual Partcicles Selection (optional)
+3. Randomization operators
+4. Information exchange
+5. Comparison and Selection
+6. Repeat until termination criteria are met
+#### Termination Criteria:
+1. Max_Iter: maximum number of iterations
+2. Hawking radiation: Hawking-Bekenstein formula
 
 ### Local Algorithm components (Post-Processing): 
-1. Depth
+1. Depth: Aspiration Criteria via Zero-Point energy and Nernst Heat theorem
 2. Mobility
 3. Coverage
