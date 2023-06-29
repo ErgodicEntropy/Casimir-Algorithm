@@ -18,7 +18,7 @@ Quantum foam is a speculative concept in quantum gravity, suggesting that at ext
 
 ## Quantum Annealing
 Quantum annealing is a computational technique that uses quantum effects to solve optimization problems. It harnesses the principles of quantum mechanics, such as quantum tunneling, to explore multiple solutions simultaneously and find the optimal solution more efficiently than classical computers in certain cases.
-## Quantum Tunneling, Entanglement and Superposition
+## Quantum Tunneling, Zeno effect, Entanglement and Superposition
 
 ## Uncertainty Principle
 The uncertainty principle, also known as Heisenberg's uncertainty principle, states that there is a fundamental limit to the precision with which certain pairs of physical properties, such as energy (E) and time (t), can be simultaneously known. It implies that the more precisely one tries to measure one of these properties, the less precisely the other property can be known.
